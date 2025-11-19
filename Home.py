@@ -68,9 +68,10 @@ if st.button("ทำนายผล"):
    y = dt.variety   
    Knn_model = KNeighborsClassifier(n_neighbors=3)
    Knn_model.fit(X, y)   
-   x_input = np.array([[pt_len, pt_wd, sp_len, sp_wd]])
+
+   x_input = np.array([[pt_len, pt_wd, sp_len, sp_wd]]) #ข้อมูลใหม่สำหรับทำนาย
+
    st.write(Knn_model.predict(x_input))
-   
    out=Knn_model.predict(x_input)
 
    if out[0] == 'Setosa':
