@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 st.header("โปรเจคการจำแนกข้อมูลดอกไม้")
+st.header("ชนพล นะครับ")
 st.image("./img/aex.jpg")
 
 col1, col2, col3 = st.columns(3)
