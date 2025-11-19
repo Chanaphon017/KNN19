@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.header("chanaphon")
-st.image("./img/aex.jpg")
+st.header("การจำแนกข้อมูลดิกไม้")
+#st.image("./img/aex.jpg")
 
 col1, col2, col3 = st.columns(3)
 
