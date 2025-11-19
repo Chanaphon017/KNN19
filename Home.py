@@ -27,3 +27,6 @@ with col3:
 <center><h5>สถิติข้อมูลดอกไม้</h5></center>
 </div>
 """
+st.markdown(html_7, unsafe_allow_html=True)
+st.markdown("")
+
